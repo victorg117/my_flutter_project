@@ -1,5 +1,6 @@
 name: console_full_project
 description: A sample command-line application.
+publish_to: "none"
 version: 1.0.0
 # repository: https://github.com/my_org/my_repo
 
@@ -8,6 +9,8 @@ environment:
 
 # Add regular dependencies here.
 dependencies:
+  calculator:
+      path: 'packages/calculator'
   # path: ^1.8.0
 
 dev_dependencies:
